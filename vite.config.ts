@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/MagdalenaPizarroO.github.io'
+    config.base = '/MagdalenaPizarroO.github.io/'
   }
 
   return config
