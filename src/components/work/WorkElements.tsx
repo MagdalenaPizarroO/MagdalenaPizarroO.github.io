@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const OutsideCon = styled.div`
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+    @media (max-width:1000px) {
+    width: 90%;
+  }
 `;
 export const WorkCon = styled.div`
   position: relative;
@@ -27,6 +28,17 @@ export const WorkImageCon = styled.div`
   position: relative;
   width: auto;
   margin: auto;
+  display: grid;
+  place-items: center;
+  @media (max-width:1000px) {
+    width: 90%;
+  }
+`;
+
+export const Img = styled.img`
+  @media (max-width:1000px) {
+    width: 90%;
+  }
 `;
 
 export const WorkTextCon = styled.div`

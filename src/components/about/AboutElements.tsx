@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const AboutCon = styled.div`
   min-width: 400px;
+  width: 50%;
   padding: 20px 50px 30px;
+  margin-top: 70px;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);

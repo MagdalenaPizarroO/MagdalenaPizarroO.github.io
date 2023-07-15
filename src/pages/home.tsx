@@ -12,7 +12,7 @@ import {
 export const Home = () => {
   return (
     <>
-      <PresentacionCon>
+      <PresentacionCon id="PresentacionCon">
         <H1Con>
           I'm Magdalena Pizarro Ortega, a passionate and dedicated full-stack
           developer.

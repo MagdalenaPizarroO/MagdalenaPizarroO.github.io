@@ -6,11 +6,10 @@ export const GradientBackgroundCon = styled.div`
   animation: gradient 6s ease infinite;
   min-height: 100vh;
   min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  place-items: center;
   overflow-x: hidden;
-  
+
   @keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -25,8 +24,7 @@ export const GradientBackgroundCon = styled.div`
 `;
 
 export const ContentCon = styled.div`
-  display: flex;
-  align-items: center;
-  margin: auto;
   min-height: 80vh;
+  display: grid;
+  place-items: center;
 `;

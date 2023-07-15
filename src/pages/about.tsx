@@ -2,7 +2,7 @@ import { AboutCon, H1, P } from "../components/about/AboutElements";
 
 export const About = () => {
   return (
-    <AboutCon>
+    <AboutCon id="AboutCon">
       <H1>Welcome</H1>
       <P>
         My name is Magdalena Pizarro Ortega, I’m a beginner full-stack developer

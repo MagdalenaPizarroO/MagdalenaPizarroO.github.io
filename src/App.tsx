@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <GradientBackgroundCon>
-          <Navbar/>
-          <ContentCon>
+        <GradientBackgroundCon id="GradientBackgroundCon">
+          <Navbar />
+          <ContentCon id="ContentCon">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
