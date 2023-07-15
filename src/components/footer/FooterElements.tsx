@@ -1,12 +1,12 @@
 import styled from "styled-components"; 
 
 export const FooterContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 50px;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   color: white;
   z-index: 999999; 
