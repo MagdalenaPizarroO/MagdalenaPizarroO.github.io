@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const PresentacionCon = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+	place-items: center;
   min-height: 500px;
   min-width: 350px;
   height: 50vh;
@@ -11,11 +11,8 @@ export const PresentacionCon = styled.div`
   padding: 20px;
   border: 2px solid #ff008821;
   border-radius: 15px;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
   z-index: 2;
+    height: fit-content;
   /* Generated using glassmorphism: https://hype4.academy/tools/glassmorphism-generator */
   background: rgba(0, 0, 70, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -47,35 +44,22 @@ export const H1Con = styled.div`
   font-size: 1.5em;
   margin: 20px 45px 0;
   @media (max-width:900px) {
-    width: 55%;
-    margin: 35px 20px 20px;
     font-size: 1.25em;
-    text-align: justify;
   }
 `;
 
 export const PCon = styled.div`
-color: white;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  height: 60%;
-  width: 55%;
-  font-family: "Courier New", Courier, monospace;
+ color: white;
   text-align: justify;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
+  margin: 20px 30px 0;
+  height: fit-content;
+    line-height: 1.2;
   @media (max-width:900px) {
-    width: 80%;
-    top: 34%;
-    margin: 0px 20px 20px;
+    font-size: 1.00em;
   }
 `;
-
-export const P = styled.p`
-  margin-top: 10px;
-  line-height: 1.2;
-`;
-
 
 export const BotonesNavegacionCon = styled.div`
   min-height: 50px;
