@@ -1,6 +1,5 @@
 import { EmailCon, FormCon, Input, MessageCon, NameCon, ResetButton, SendButton, Textarea, Title, TitleCon } from "./ContactFormElements";
 
-// action="https://formspree.io/f/xrgwbdyr"
 export function ContactForm() {
   return (
     <>
