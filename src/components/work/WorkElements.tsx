@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const OutsideCon = styled.div`
+  width: 90%;
   max-width: 1000px;
   display: grid;
   place-items: center;
-    @media (max-width:1000px) {
+  @media (max-width:700px) {
     width: 90%;
+    margin: 0;
+    pad: 0;
   }
 `;
 export const WorkCon = styled.div`
@@ -22,6 +25,10 @@ export const WorkCon = styled.div`
   -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  @media (max-width:700px) {
+    width: 90%;
+    padding: 20px 5px 30px;
+  }
 `;
 
 export const WorkImageCon = styled.div`

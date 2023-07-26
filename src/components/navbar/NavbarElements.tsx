@@ -1,41 +1,90 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const NavbarCon = styled.div`
+interface NavbarContainerProps {
+  $extendNavbar?: boolean;
+}
+
+export const NavbarContainer = styled.nav<NavbarContainerProps>`
+ width: 100%;
+  height: ${(props) => (props.$extendNavbar ? "100vh" : "80px")};
+  background-color: transparent;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  @media (min-width: 700px) {
+    height: 80px;
+  }
+`
+
+export const LeftContainer = styled.div`
+  flex: 70%;
+  display: flex;
   align-items: center;
-  width: 100vw;
-  height: 50px;
-  text-align: center;
-  font-family: "Source Code Pro", monospace;
-  font-size: 18px;
-  position: absolute;
-  top: 0;
+  padding-left: 5%;
+`;
+
+export const RightContainer = styled.div`
+  flex: 30%;
+  display: flex;
+  align-items: center;
+`;
+
+export const NavbarInnerContainer = styled.div`
+  width: 100%;
+  height: 80px;
+  display: flex;
+`;
+
+export const NavbarLinkContainer = styled.div`
+  display: flex;
+`;
+
+export const NavbarLink = styled(Link)`
   color: white;
-  z-index: 999999;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
 
-export const Start = styled.div`
-  text-align: start;
-  margin-left: 50px;
-
+export const NavbarLinkExtended = styled(Link)`
+  color: white;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
 `;
 
-export const Center = styled.div`
-  text-align: center;
+export const Logo = styled.img`
+  margin: 10px;
+  max-width: 180px;
+  height: auto;
 `;
 
-export const End = styled.div`
-  text-align: end;
-  margin-right: 50px;
+export const OpenLinksButton = styled.button`
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
 `;
 
-export const ButtonNavbar = styled.button`
-  color: #ffffff;
-  font-size: 1em;
-  margin: 0.3em;
-  padding: 0.25em 1em;
-  border: transparent;
-  border-radius: 5px;
-  background-color: #c33263;
+export const NavbarExtendedContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
 `;

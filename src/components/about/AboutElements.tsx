@@ -1,28 +1,50 @@
 import styled from "styled-components";
 
 export const AboutCon = styled.div`
-  min-width: 400px;
-  width: 50%;
-  padding: 20px 50px 30px;
-  margin-top: 70px;
+display: grid;
+	place-items: center;
+  min-height: 500px;
+  min-width: 350px;
+  height: 50vh;
+  width: 50vw;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ff008821;
+  border-radius: 15px;
+  z-index: 2;
+    height: fit-content;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  @media (max-width: 700px) {
+    width: 80%;
+    margin: 0;
+  }
+
 `;
 
-export const H1 = styled.h1`
+export const H1Con = styled.div`
   text-align: center;
-  margin-bottom: 15px;
   font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
   text-transform: uppercase;
+  margin: 20px 45px 0;
+  @media (max-width:700px) {
+    font-size: 1.25em;
+  }
 `;
 
-export const P = styled.p`
-  font-family: "Courier New", Courier, monospace;
-  font-size: large;
+export const PCon = styled.div`
   text-align: justify;
-  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.05em;
+  margin: 20px 30px 0;
+  height: fit-content;
+    line-height: 1.2;
+  @media (max-width:700px) {
+    font-size: 1.00em;
+  }
 `;

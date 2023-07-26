@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/navbar/navbar";
+import { Footer } from "./components/footer/footer";
+import { ContentCon, GradientBackgroundCon } from "./components/AppElements";
 import { Home } from "./pages/home";
 import { Contact } from "./pages/contact";
 import { About } from "./pages/about";
 import { Work } from "./pages/work";
-import { ContentCon, GradientBackgroundCon } from "./components/AppElements";
-import { Footer } from "./components/footer/footer";
-import { Navbar } from "./components/navbar/navbar";
 
 function App() {
   return (
