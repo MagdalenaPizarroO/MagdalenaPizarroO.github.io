@@ -20,14 +20,11 @@ export const WorkCon = styled.div`
 
 export const WorkImageCon = styled.div`
   position: relative;
-  width: auto;
+  width: 80%;
   margin: auto;
   padding: 30px;
   display: grid;
   place-items: center;
-  @media (max-width:1000px) {
-    width: 90%;
-  }
 `;
 
 export const Img = styled.img`

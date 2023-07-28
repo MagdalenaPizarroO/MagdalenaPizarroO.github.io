@@ -400,14 +400,11 @@ display: grid;
   }
 `,Ys=I.div`
   position: relative;
-  width: auto;
+  width: 80%;
   margin: auto;
   padding: 30px;
   display: grid;
   place-items: center;
-  @media (max-width:1000px) {
-    width: 90%;
-  }
 `,Xs=I.img`
   @media (max-width:1000px) {
     width: 90%;
