@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const WorkCon = styled.div`
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   width: 75%;
   margin: 0 auto 10px;
   padding: 20px 40px 20px;
