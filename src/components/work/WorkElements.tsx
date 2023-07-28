@@ -19,7 +19,7 @@ export const WorkCon = styled.div`
     padding: 20px 15px 30px;
   }
   @media (max-width:450px) {
-    width: 100%;
+    width: 95%;
     padding: 20px 15px 30px;
   }
 `;
