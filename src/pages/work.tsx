@@ -29,13 +29,10 @@ export const Work = () => {
               https://github.com/MagdalenaPizarroO/Apple-Geeks
             </WorkLink>
             <WorkP>
-              Proyecto final que concluye con la obtención de la certificación
-              "FULL STACK SOFTWARE DEVELOPMENT" de 4Geeks Academy Santiago
+            Final project that culminates with the attainment of the "FULL STACK SOFTWARE DEVELOPMENT" certification from 4Geeks Academy Santiago.
             </WorkP>
             <WorkP>
-              "Plataforma en línea dedicada exclusivamente a la publicación y
-              promoción de servicios relacionados con la gama de productos de
-              Apple"
+            Online platform dedicated exclusively to the publication and promotion of services related to the range of Apple products.
             </WorkP>
           </WorkTextCon>
         </WorkCon>
@@ -67,7 +64,7 @@ export const Work = () => {
             <WorkP>
               With the help of FreeCodeCamp, I was able to create a random quote
               generator using the ZenQuotes API. The website was deployed using
-              AWS.{" "}
+              AWS.
             </WorkP>
           </WorkTextCon>
         </WorkCon>
