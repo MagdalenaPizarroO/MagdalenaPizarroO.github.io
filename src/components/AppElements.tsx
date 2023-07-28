@@ -5,10 +5,11 @@ export const GradientBackgroundCon = styled.div`
   background-size: 400% 400%;
   animation: gradient 6s ease infinite;
   min-height: 100vh;
-  min-width: 100vw;
+  height: fit-content;
+  width: 100%;
   display: grid;
   place-items: center;
-  overflow-x: hidden;
+  margin: 0;
 
   @keyframes gradient {
     0% {
@@ -24,7 +25,7 @@ export const GradientBackgroundCon = styled.div`
 `;
 
 export const ContentCon = styled.div`
-  min-height: 80vh;
+  width: 100%;
   display: grid;
   place-items: center;
 `;

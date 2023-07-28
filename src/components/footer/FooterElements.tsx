@@ -10,6 +10,7 @@ export const FooterContainer = styled.div`
   bottom: 0;
   color: white;
   z-index: 999999; 
+  margin-top: 10px;
 `;
 
 export const RedSpan = styled.span`

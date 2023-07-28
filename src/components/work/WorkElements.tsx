@@ -1,24 +1,11 @@
 import styled from "styled-components";
 
-export const OutsideCon = styled.div`
-  width: 90%;
-  max-width: 1000px;
-  display: grid;
-  place-items: center;
-  @media (max-width:700px) {
-    width: 90%;
-    margin: 0;
-    pad: 0;
-  }
-`;
 export const WorkCon = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 400px;
-  width: 80%;
-  margin-top: 70px;
-  padding: 20px 50px 30px;
+  width: 75%;
+  margin: 0 auto 10px;
+  padding: 20px 40px 20px;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);
@@ -27,7 +14,7 @@ export const WorkCon = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.18);
   @media (max-width:700px) {
     width: 90%;
-    padding: 20px 5px 30px;
+    padding: 20px 10px 30px;
   }
 `;
 
@@ -35,6 +22,7 @@ export const WorkImageCon = styled.div`
   position: relative;
   width: auto;
   margin: auto;
+  padding: 30px;
   display: grid;
   place-items: center;
   @media (max-width:1000px) {
@@ -49,7 +37,8 @@ export const Img = styled.img`
 `;
 
 export const WorkTextCon = styled.div`
-  min-height: 200px;
+  height: fit-content;
+  width: 100%;
   margin: 5px auto 30px;
 `;
 
@@ -70,4 +59,6 @@ export const WorkLink = styled.a`
   font-size: 0.8em;
   font-family: "Courier New", Courier, monospace;
   color: black;
+  display: block;
+  overflow-wrap: break-word;
 `;

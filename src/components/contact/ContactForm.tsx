@@ -4,8 +4,8 @@ export function ContactForm() {
   return (
     <>
         <form action="https://formspree.io/f/xrgwbdyr" method="POST">
-      <FormCon>
-        <TitleCon>
+      <FormCon id="FormCon">
+        <TitleCon id="TitleCon">
         <Title>Contact Me</Title>
         </TitleCon>
           <NameCon>Your Name:</NameCon>

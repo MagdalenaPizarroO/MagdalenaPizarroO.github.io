@@ -15,6 +15,7 @@ export const FormCon = styled.div`
     "button1 button2"
     "button3 .";
   padding: 30px 50px 30px;
+  font-family: "Courier New", Courier, monospace;
   border: 2px solid #ff008821;
   border-radius: 15px;
   z-index: 2;
@@ -25,6 +26,9 @@ export const FormCon = styled.div`
   -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  @media (max-width:700px) {
+    margin: 0 15px 0;
+  }
 `;
 
 export const TitleCon = styled.div`
@@ -76,9 +80,8 @@ export const MessageCon = styled.div`
 export const Textarea = styled.textarea`
 grid-area: inputMessage;
   background-color: transparent;
-  border: 1px solid  #2b0616; /* Establecemos un borde transparente */
+  border: 1px solid  #2b0616; 
   padding: 10px;
-  display: initial;
   width: 100%;
   outline: none;
   font-size: 15px;
@@ -139,6 +142,5 @@ border-radius: 100%;
 
 export const Title = styled.h1`
   text-decoration: underline;
-  font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
 `;

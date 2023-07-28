@@ -1,6 +1,5 @@
 import {
   Img,
-  OutsideCon,
   WorkCon,
   WorkH1,
   WorkImageCon,
@@ -14,8 +13,8 @@ import AppleGeeksGif from "../assets/AppleGeeks.gif";
 export const Work = () => {
   return (
     <>
-      <OutsideCon id="OutsideCon">
-        <WorkCon id="WorkCon">
+
+        <WorkCon id="WorkCon1">
           <WorkImageCon>
             <Img src={AppleGeeksGif} />
           </WorkImageCon>
@@ -40,7 +39,7 @@ export const Work = () => {
             </WorkP>
           </WorkTextCon>
         </WorkCon>
-        <WorkCon id="WorkCon">
+        <WorkCon id="WorkCon2">
           <WorkImageCon>
             <Img src={InspoQuoteGenGif} />
           </WorkImageCon>
@@ -72,7 +71,7 @@ export const Work = () => {
             </WorkP>
           </WorkTextCon>
         </WorkCon>
-      </OutsideCon>
+
     </>
   );
 };
