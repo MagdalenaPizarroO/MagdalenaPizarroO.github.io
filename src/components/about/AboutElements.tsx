@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const AboutCon = styled.div`
 display: grid;
 	place-items: center;
-  min-height: 500px;
-  min-width: 350px;
   height: 50vh;
   width: 50vw;
   padding: 20px;

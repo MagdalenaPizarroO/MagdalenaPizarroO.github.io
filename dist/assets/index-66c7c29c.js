@@ -153,6 +153,7 @@ Error generating stack: `+i.message+`
   min-height: 100vh;
   height: fit-content;
   width: 100%;
+  min-width: 320px;
   display: grid;
   place-items: center;
   margin: 0;
@@ -169,14 +170,14 @@ Error generating stack: `+i.message+`
     }
   }
 `,jg=I.div`
-  width: 100%;
+  width: 100vw;
   display: grid;
   place-items: center;
+  min-width: 320px;
 `,Tg=I.div`
   display: grid;
 	place-items: center;
   min-height: 500px;
-  min-width: 350px;
   height: 50vh;
   width: 50vw;
   padding: 20px;
@@ -342,8 +343,6 @@ border-radius: 100%;
 `;function Vg(){return x.jsx(x.Fragment,{children:x.jsx("form",{action:"https://formspree.io/f/xrgwbdyr",method:"POST",children:x.jsxs($g,{id:"FormCon",children:[x.jsx(Mg,{id:"TitleCon",children:x.jsx(Hg,{children:"Contact Me"})}),x.jsx(Dg,{children:"Your Name:"}),x.jsx(Qs,{type:"text",name:"name",required:!0}),x.jsx(Fg,{children:"Your Email:"}),x.jsx(Qs,{type:"email",name:"email",required:!0}),x.jsx(Ag,{children:"Your Message:"}),x.jsx(Ug,{name:"message",required:!0}),x.jsx(Bg,{type:"submit",children:"Send"}),x.jsx(Wg,{type:"reset",children:"Reset"})]})})})}const Qg=()=>x.jsx(x.Fragment,{children:x.jsx(Vg,{})}),Gg=I.div`
 display: grid;
 	place-items: center;
-  min-height: 500px;
-  min-width: 350px;
   height: 50vh;
   width: 50vw;
   padding: 20px;
@@ -383,10 +382,11 @@ display: grid;
     font-size: 1.00em;
   }
 `,Yg=()=>x.jsxs(Gg,{id:"AboutCon",children:[x.jsx(Gs,{children:"Welcome"}),x.jsxs(Kg,{children:[x.jsx("p",{children:"My name is Magdalena Pizarro Ortega, I’m a beginner full-stack developer based in Chile."}),x.jsx("br",{}),x.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. Currently, my focus lies in deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),x.jsx("br",{}),x.jsx("p",{children:"I am passionate about creating engaging and user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),x.jsx("br",{}),x.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),x.jsx("br",{}),x.jsx("p",{children:"I am highly motivated to take on new challenges and I am seeking a company that will allow me to continue growing as a full-stack developer."}),x.jsx("br",{}),x.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),x.jsx("br",{})]}),x.jsx(Gs,{children:"Thank you!"})]}),Ks=I.div`
-  display: flex;
-  flex-direction: column;
+  align-self: center;
+  justify-self: center;
   box-sizing: border-box;
-  width: 75%;
+  width: 80%;
+  min-width: 320px;
   margin: 0 auto 10px;
   padding: 20px 40px 20px;
   background: rgba(255, 255, 255, 0.45);
@@ -396,8 +396,12 @@ display: grid;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   @media (max-width:700px) {
-    width: 90%;
-    padding: 20px 10px 30px;
+    width: 85%;
+    padding: 20px 15px 30px;
+  }
+  @media (max-width:450px) {
+    width: 100%;
+    padding: 20px 15px 30px;
   }
 `,Ys=I.div`
   position: relative;

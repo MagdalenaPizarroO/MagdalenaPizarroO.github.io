@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const WorkCon = styled.div`
-  display: flex;
-  flex-direction: column;
+  align-self: center;
+  justify-self: center;
   box-sizing: border-box;
-  width: 75%;
+  width: 80%;
+  min-width: 320px;
   margin: 0 auto 10px;
   padding: 20px 40px 20px;
   background: rgba(255, 255, 255, 0.45);
@@ -14,8 +15,12 @@ export const WorkCon = styled.div`
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   @media (max-width:700px) {
-    width: 90%;
-    padding: 20px 10px 30px;
+    width: 85%;
+    padding: 20px 15px 30px;
+  }
+  @media (max-width:450px) {
+    width: 100%;
+    padding: 20px 15px 30px;
   }
 `;
 

@@ -7,6 +7,7 @@ export const GradientBackgroundCon = styled.div`
   min-height: 100vh;
   height: fit-content;
   width: 100%;
+  min-width: 320px;
   display: grid;
   place-items: center;
   margin: 0;
@@ -25,7 +26,8 @@ export const GradientBackgroundCon = styled.div`
 `;
 
 export const ContentCon = styled.div`
-  width: 100%;
+  width: 100vw;
   display: grid;
   place-items: center;
+  min-width: 320px;
 `;
