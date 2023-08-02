@@ -36,7 +36,7 @@ export const H1Con = styled.div`
 `;
 
 export const PCon = styled.div`
-  text-align: justify;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
   margin: 20px 30px 0;

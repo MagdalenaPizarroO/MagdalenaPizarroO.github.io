@@ -208,7 +208,7 @@ Error generating stack: `+i.message+`
   }
 `,Ig=I.div`
  color: white;
-  text-align: justify;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
   margin: 20px 30px 0;
@@ -372,7 +372,7 @@ display: grid;
     font-size: 1.25em;
   }
 `,Kg=I.div`
-  text-align: justify;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
   margin: 20px 30px 0;
@@ -381,7 +381,7 @@ display: grid;
   @media (max-width:700px) {
     font-size: 1.00em;
   }
-`,Yg=()=>x.jsxs(Gg,{id:"AboutCon",children:[x.jsx(Gs,{children:"Welcome"}),x.jsxs(Kg,{children:[x.jsx("p",{children:"My name is Magdalena Pizarro Ortega, I’m a beginner full-stack developer based in Chile."}),x.jsx("br",{}),x.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. Currently, my focus lies in deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),x.jsx("br",{}),x.jsx("p",{children:"I am passionate about creating engaging and user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),x.jsx("br",{}),x.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),x.jsx("br",{}),x.jsx("p",{children:"I am highly motivated to take on new challenges and I am seeking a company that will allow me to continue growing as a full-stack developer."}),x.jsx("br",{}),x.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),x.jsx("br",{})]}),x.jsx(Gs,{children:"Thank you!"})]}),Ks=I.div`
+`,Yg=()=>x.jsxs(Gg,{id:"AboutCon",children:[x.jsx(Gs,{children:"Welcome"}),x.jsxs(Kg,{children:[x.jsx("p",{children:"My name is Magdalena Pizarro Ortega, and I’m a beginner full-stack developer based in Chile."}),x.jsx("br",{}),x.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. My focus is on deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),x.jsx("br",{}),x.jsx("p",{children:"I am passionate about creating engaging, user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),x.jsx("br",{}),x.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),x.jsx("br",{}),x.jsx("p",{children:"I am highly motivated to take on new challenges and seek a company that will allow me to continue growing as a full-stack developer."}),x.jsx("br",{}),x.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),x.jsx("br",{})]}),x.jsx(Gs,{children:"Thank you!"})]}),Ks=I.div`
   align-self: center;
   justify-self: center;
   box-sizing: border-box;
@@ -425,7 +425,7 @@ display: grid;
 `,Bt=I.p`
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
-  text-align: justify;
+  text-align: center;
   padding-top: 5px;
 `,ul=I.a`
   font-size: 0.8em;
