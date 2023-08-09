@@ -60,10 +60,14 @@ export const NavbarLinkExtended = styled(Link)`
 `;
 
 export const Logo = styled.img`
-  margin: 10px;
-  max-width: 180px;
+  margin: 0 10px 0;
+  max-width: 30px;
   height: auto;
+  @media (max-width: 700px) {
+    margin-left: 30px;
+  }
 `;
+
 
 export const OpenLinksButton = styled.button`
   width: 70px;

@@ -9,7 +9,9 @@ import {
   NavbarLink,
   OpenLinksButton,
   NavbarLinkExtended,
+  Logo,
 } from "./NavbarElements";
+import linkedinImg from "../../assets/linkedin-logo.png";
 
 type NavbarProps = boolean;
 
@@ -17,7 +19,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
 
   const handleLinkClick = () => {
-    setExtendNavbar(false); 
+    setExtendNavbar(false);
   };
 
   return (
@@ -28,7 +30,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
             <NavbarLink to="/"> Home</NavbarLink>
             <NavbarLink to="/about"> About</NavbarLink>
             <NavbarLink to="/work"> Work</NavbarLink>
-            
+
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -39,17 +41,36 @@ export const Navbar: React.FC<NavbarProps> = () => {
           </NavbarLinkContainer>
         </LeftContainer>
         <RightContainer>
-        <NavbarLink to="/contact"> Contact</NavbarLink>
+          <NavbarLink to="/contact"> Contact</NavbarLink>
+          <a
+            href="https://www.linkedin.com/in/magdalena-pizarro-ortega/"
+            target="_blank"
+            rel="noopener noreferred"
+          >
+            <Logo src={linkedinImg}></Logo>
+          </a>
         </RightContainer>
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/" onClick={handleLinkClick}> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about" onClick={handleLinkClick}> About</NavbarLinkExtended>
-          <NavbarLinkExtended to="/work" onClick={handleLinkClick}> Work</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contact" onClick={handleLinkClick}> Contact</NavbarLinkExtended>
+          <NavbarLinkExtended to="/" onClick={handleLinkClick}>
+            {" "}
+            Home
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/about" onClick={handleLinkClick}>
+            {" "}
+            About
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/work" onClick={handleLinkClick}>
+            {" "}
+            Work
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/contact" onClick={handleLinkClick}>
+            {" "}
+            Contact
+          </NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
   );
-}
+};

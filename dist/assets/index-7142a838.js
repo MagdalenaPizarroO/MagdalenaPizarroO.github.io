@@ -107,11 +107,14 @@ Error generating stack: `+i.message+`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
-`;I.img`
-  margin: 10px;
-  max-width: 180px;
+`,Sg=I.img`
+  margin: 0 10px 0;
+  max-width: 30px;
   height: auto;
-`;const Sg=I.button`
+  @media (max-width: 700px) {
+    margin-left: 30px;
+  }
+`,Cg=I.button`
   width: 70px;
   height: 50px;
   background: none;
@@ -123,7 +126,7 @@ Error generating stack: `+i.message+`
   @media (min-width: 700px) {
     display: none;
   }
-`,Cg=I.div`
+`,Eg=I.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,7 +134,7 @@ Error generating stack: `+i.message+`
   @media (min-width: 700px) {
     display: none;
   }
-`,Eg=()=>{const[e,t]=N.useState(!1),n=()=>{t(!1)};return x.jsxs(vg,{$extendNavbar:e,children:[x.jsxs(xg,{children:[x.jsx(yg,{children:x.jsxs(kg,{children:[x.jsx(co,{to:"/",children:" Home"}),x.jsx(co,{to:"/about",children:" About"}),x.jsx(co,{to:"/work",children:" Work"}),x.jsx(Sg,{onClick:()=>{t(r=>!r)},children:e?x.jsx(x.Fragment,{children:"✕"}):x.jsx(x.Fragment,{children:" ≡"})})]})}),x.jsx(wg,{children:x.jsx(co,{to:"/contact",children:" Contact"})})]}),e&&x.jsxs(Cg,{children:[x.jsx(fo,{to:"/",onClick:n,children:" Home"}),x.jsx(fo,{to:"/about",onClick:n,children:" About"}),x.jsx(fo,{to:"/work",onClick:n,children:" Work"}),x.jsx(fo,{to:"/contact",onClick:n,children:" Contact"})]})]})},Pg=I.div`
+`,Pg="/assets/linkedin-logo-f7d7323b.png",_g=()=>{const[e,t]=N.useState(!1),n=()=>{t(!1)};return x.jsxs(vg,{$extendNavbar:e,children:[x.jsxs(xg,{children:[x.jsx(yg,{children:x.jsxs(kg,{children:[x.jsx(co,{to:"/",children:" Home"}),x.jsx(co,{to:"/about",children:" About"}),x.jsx(co,{to:"/work",children:" Work"}),x.jsx(Cg,{onClick:()=>{t(r=>!r)},children:e?x.jsx(x.Fragment,{children:"✕"}):x.jsx(x.Fragment,{children:" ≡"})})]})}),x.jsxs(wg,{children:[x.jsx(co,{to:"/contact",children:" Contact"}),x.jsx("a",{href:"https://www.linkedin.com/in/magdalena-pizarro-ortega/",target:"_blank",rel:"noopener noreferred",children:x.jsx(Sg,{src:Pg})})]})]}),e&&x.jsxs(Eg,{children:[x.jsxs(fo,{to:"/",onClick:n,children:[" ","Home"]}),x.jsxs(fo,{to:"/about",onClick:n,children:[" ","About"]}),x.jsxs(fo,{to:"/work",onClick:n,children:[" ","Work"]}),x.jsxs(fo,{to:"/contact",onClick:n,children:[" ","Contact"]})]})]})},Ng=I.div`
   width: 100%;
   height: 50px;
   text-align: center;
@@ -142,11 +145,11 @@ Error generating stack: `+i.message+`
   color: white;
   z-index: 999999; 
   margin-top: 10px;
-`,_g=I.span`
+`,Rg=I.span`
   color: red;
-`,Ng=I.a`
+`,zg=I.a`
   color: white;
-`,Rg=()=>x.jsx(Pg,{children:x.jsxs(x.Fragment,{children:[x.jsx("br",{}),"Developed with ",x.jsx(_g,{children:"♥︎"})," by"," ",x.jsx(Ng,{href:"https://github.com/MagdalenaPizarroO",target:"_blank",rel:"noopener noreferred",children:"@Magdis"})]})}),zg=I.div`
+`,jg=()=>x.jsx(Ng,{children:x.jsxs(x.Fragment,{children:[x.jsx("br",{}),"Developed with ",x.jsx(Rg,{children:"♥︎"})," by"," ",x.jsx(zg,{href:"https://github.com/MagdalenaPizarroO",target:"_blank",rel:"noopener noreferred",children:"@Magdis"})]})}),Tg=I.div`
   background: linear-gradient(to right, #6309c3, #cd236f);
   background-size: 400% 400%;
   animation: gradient 6s ease infinite;
@@ -169,12 +172,12 @@ Error generating stack: `+i.message+`
       background-position: 0% 50%;
     }
   }
-`,jg=I.div`
+`,Lg=I.div`
   width: 100vw;
   display: grid;
   place-items: center;
   min-width: 320px;
-`,Tg=I.div`
+`,Ig=I.div`
   display: grid;
 	place-items: center;
   min-height: 500px;
@@ -197,7 +200,7 @@ Error generating stack: `+i.message+`
     width: 80%;
     margin: 0;
   }
-`,Lg=I.div`
+`,Og=I.div`
   color: white;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -206,7 +209,7 @@ Error generating stack: `+i.message+`
   @media (max-width:700px) {
     font-size: 1.25em;
   }
-`,Ig=I.div`
+`,$g=I.div`
  color: white;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -217,7 +220,7 @@ Error generating stack: `+i.message+`
   @media (max-width:700px) {
     font-size: 1.00em;
   }
-`,Og=()=>x.jsx(x.Fragment,{children:x.jsxs(Tg,{id:"PresentacionCon",children:[x.jsx(Lg,{id:"H1Con",children:"I'm Magdalena Pizarro Ortega, a passionate and dedicated full-stack developer."}),x.jsxs(Ig,{id:"PCon",children:[x.jsx("p",{children:"I am enthusiastic in further developing my skills in creating dynamic and interactive web applications. My goal is to build user-friendly and visually appealing websites that deliver seamless user experiences."}),x.jsx("br",{}),x.jsx("p",{children:"As a beginner in the field, I am continuously improving my skills and expanding my knowledge to stay at the forefront of web development trends."}),x.jsx("br",{}),x.jsx("p",{children:"Please take a moment to browse through my portfolio and explore the projects I have worked on. If you have any questions or would like to discuss potential collaborations, feel free to reach out to me through the contact form."}),x.jsx("br",{}),x.jsx("p",{children:"Thank you for visiting, and I look forward to connecting with you!"})]})]})}),$g=I.div`
+`,Mg=()=>x.jsx(x.Fragment,{children:x.jsxs(Ig,{id:"PresentacionCon",children:[x.jsx(Og,{id:"H1Con",children:"I'm Magdalena Pizarro Ortega, a passionate and dedicated full-stack developer."}),x.jsxs($g,{id:"PCon",children:[x.jsx("p",{children:"I am enthusiastic in further developing my skills in creating dynamic and interactive web applications. My goal is to build user-friendly and visually appealing websites that deliver seamless user experiences."}),x.jsx("br",{}),x.jsx("p",{children:"As a beginner in the field, I am continuously improving my skills and expanding my knowledge to stay at the forefront of web development trends."}),x.jsx("br",{}),x.jsx("p",{children:"Please take a moment to browse through my portfolio and explore the projects I have worked on. If you have any questions or would like to discuss potential collaborations, feel free to reach out to me through the contact form."}),x.jsx("br",{}),x.jsx("p",{children:"Thank you for visiting, and I look forward to connecting with you!"})]})]})}),Dg=I.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr 1fr 3fr 1fr;
@@ -246,14 +249,14 @@ Error generating stack: `+i.message+`
   @media (max-width:700px) {
     margin: 0 15px 0;
   }
-`,Mg=I.div`
+`,Fg=I.div`
   grid-area: title;
   margin: auto;
   margin-bottom: 20px;
-`,Dg=I.div`
+`,Ag=I.div`
   grid-area: name;
   align-self: end;
-`,Fg=I.div`
+`,Ug=I.div`
   grid-area: email;
   align-self: end;
 `,Qs=I.input`
@@ -279,10 +282,10 @@ Error generating stack: `+i.message+`
       outline: 0 none;
       transition-duration: 0.3s;
     }
-`,Ag=I.div`
+`,Bg=I.div`
   grid-area: message;
   align-self: end;
-`,Ug=I.textarea`
+`,Wg=I.textarea`
 grid-area: inputMessage;
   background-color: transparent;
   border: 1px solid  #2b0616; 
@@ -297,7 +300,7 @@ grid-area: inputMessage;
     border-image-width: 2px;
   }
   margin-bottom: 5px;
-`,Bg=I.button`
+`,Hg=I.button`
   grid-area: button1;
   color: white;
   cursor: pointer;
@@ -316,7 +319,7 @@ grid-area: inputMessage;
     transform: scale(1.1);
     transform-origin: center;
   }
-`,Wg=I.button`
+`,Vg=I.button`
   grid-area: button2;
   cursor: pointer;
   transform-origin: center;
@@ -337,10 +340,10 @@ grid-area: inputMessage;
 `;I.a`
 border-radius: 100%;
   
-`;const Hg=I.h1`
+`;const Qg=I.h1`
   text-decoration: underline;
   text-transform: uppercase;
-`;function Vg(){return x.jsx(x.Fragment,{children:x.jsx("form",{action:"https://formspree.io/f/xrgwbdyr",method:"POST",children:x.jsxs($g,{id:"FormCon",children:[x.jsx(Mg,{id:"TitleCon",children:x.jsx(Hg,{children:"Contact Me"})}),x.jsx(Dg,{children:"Your Name:"}),x.jsx(Qs,{type:"text",name:"name",required:!0}),x.jsx(Fg,{children:"Your Email:"}),x.jsx(Qs,{type:"email",name:"email",required:!0}),x.jsx(Ag,{children:"Your Message:"}),x.jsx(Ug,{name:"message",required:!0}),x.jsx(Bg,{type:"submit",children:"Send"}),x.jsx(Wg,{type:"reset",children:"Reset"})]})})})}const Qg=()=>x.jsx(x.Fragment,{children:x.jsx(Vg,{})}),Gg=I.div`
+`;function Gg(){return x.jsx(x.Fragment,{children:x.jsx("form",{action:"https://formspree.io/f/xrgwbdyr",method:"POST",children:x.jsxs(Dg,{id:"FormCon",children:[x.jsx(Fg,{id:"TitleCon",children:x.jsx(Qg,{children:"Contact Me"})}),x.jsx(Ag,{children:"Your Name:"}),x.jsx(Qs,{type:"text",name:"name",required:!0}),x.jsx(Ug,{children:"Your Email:"}),x.jsx(Qs,{type:"email",name:"email",required:!0}),x.jsx(Bg,{children:"Your Message:"}),x.jsx(Wg,{name:"message",required:!0}),x.jsx(Hg,{type:"submit",children:"Send"}),x.jsx(Vg,{type:"reset",children:"Reset"})]})})})}const Kg=()=>x.jsx(x.Fragment,{children:x.jsx(Gg,{})}),Yg=I.div`
 display: grid;
 	place-items: center;
   height: 50vh;
@@ -371,7 +374,7 @@ display: grid;
   @media (max-width:700px) {
     font-size: 1.25em;
   }
-`,Kg=I.div`
+`,Xg=I.div`
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
@@ -381,7 +384,7 @@ display: grid;
   @media (max-width:700px) {
     font-size: 1.00em;
   }
-`,Yg=()=>x.jsxs(Gg,{id:"AboutCon",children:[x.jsx(Gs,{children:"Welcome"}),x.jsxs(Kg,{children:[x.jsx("p",{children:"My name is Magdalena Pizarro Ortega, and I’m a beginner full-stack developer based in Chile."}),x.jsx("br",{}),x.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. My focus is on deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),x.jsx("br",{}),x.jsx("p",{children:"I am passionate about creating engaging, user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),x.jsx("br",{}),x.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),x.jsx("br",{}),x.jsx("p",{children:"I am highly motivated to take on new challenges and seek a company that will allow me to continue growing as a full-stack developer."}),x.jsx("br",{}),x.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),x.jsx("br",{})]}),x.jsx(Gs,{children:"Thank you!"})]}),Ks=I.div`
+`,Zg=()=>x.jsxs(Yg,{id:"AboutCon",children:[x.jsx(Gs,{children:"Welcome"}),x.jsxs(Xg,{children:[x.jsx("p",{children:"My name is Magdalena Pizarro Ortega, and I’m a beginner full-stack developer based in Chile."}),x.jsx("br",{}),x.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. My focus is on deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),x.jsx("br",{}),x.jsx("p",{children:"I am passionate about creating engaging, user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),x.jsx("br",{}),x.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),x.jsx("br",{}),x.jsx("p",{children:"I am highly motivated to take on new challenges and seek a company that will allow me to continue growing as a full-stack developer."}),x.jsx("br",{}),x.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),x.jsx("br",{})]}),x.jsx(Gs,{children:"Thank you!"})]}),Ks=I.div`
   align-self: center;
   justify-self: center;
   box-sizing: border-box;
@@ -433,4 +436,4 @@ display: grid;
   color: black;
   display: block;
   overflow-wrap: break-word;
-`,Xg="/assets/InspoQuoteGen-b57bad80.gif",Zg="/assets/AppleGeeks-72a4614a.gif",Jg=()=>x.jsxs(x.Fragment,{children:[x.jsxs(Ks,{id:"WorkCon1",children:[x.jsx(Ys,{children:x.jsx(Xs,{src:Zg})}),x.jsxs(Zs,{children:[x.jsx(Js,{children:'"Apple Geeks"'}),x.jsx(Bt,{children:"Github: "}),x.jsx(ul,{href:"https://github.com/MagdalenaPizarroO/Apple-Geeks",target:"_blank",rel:"noopener noreferred",children:"https://github.com/MagdalenaPizarroO/Apple-Geeks"}),x.jsx(Bt,{children:'Final project that culminates with the attainment of the "FULL STACK SOFTWARE DEVELOPMENT" certification from 4Geeks Academy Santiago.'}),x.jsx(Bt,{children:"Online platform dedicated exclusively to the publication and promotion of services related to the range of Apple products."})]})]}),x.jsxs(Ks,{id:"WorkCon2",children:[x.jsx(Ys,{children:x.jsx(Xs,{src:Xg})}),x.jsxs(Zs,{children:[x.jsx(Js,{children:'"Inspirational Quote Generator"'}),x.jsx(Bt,{children:"Github: "}),x.jsx(ul,{href:"https://github.com/MagdalenaPizarroO/inspirational-quote-generator",target:"_blank",rel:"noopener noreferred",children:"https://github.com/MagdalenaPizarroO/inspirational-quote-generator"}),x.jsx(Bt,{children:"Website: "}),x.jsx(ul,{href:"https://prod.dikw667fsd31w.amplifyapp.com/",target:"_blank",rel:"noopener noreferred",children:"https://prod.dikw667fsd31w.amplifyapp.com/"}),x.jsx(Bt,{children:"Personal project to practice React, Next.js, TypeScript and AWS"}),x.jsx(Bt,{children:"With the help of FreeCodeCamp, I was able to create a random quote generator using the ZenQuotes API. The website was deployed using AWS."})]})]})]});function qg(){return x.jsx(x.Fragment,{children:x.jsx(c0,{children:x.jsxs(zg,{id:"GradientBackgroundCon",children:[x.jsx(Eg,{}),x.jsx(jg,{id:"ContentCon",children:x.jsxs(o0,{children:[x.jsx(ir,{path:"/",element:x.jsx(Og,{})}),x.jsx(ir,{path:"/contact",element:x.jsx(Qg,{})}),x.jsx(ir,{path:"/about",element:x.jsx(Yg,{})}),x.jsx(ir,{path:"/work",element:x.jsx(Jg,{})})]})}),x.jsx(Rg,{})]})})})}al.createRoot(document.getElementById("root")).render(x.jsx(qt.StrictMode,{children:x.jsx(qg,{})}));
+`,Jg="/assets/InspoQuoteGen-b57bad80.gif",qg="/assets/AppleGeeks-72a4614a.gif",bg=()=>x.jsxs(x.Fragment,{children:[x.jsxs(Ks,{id:"WorkCon1",children:[x.jsx(Ys,{children:x.jsx(Xs,{src:qg})}),x.jsxs(Zs,{children:[x.jsx(Js,{children:'"Apple Geeks"'}),x.jsx(Bt,{children:"Github: "}),x.jsx(ul,{href:"https://github.com/MagdalenaPizarroO/Apple-Geeks",target:"_blank",rel:"noopener noreferred",children:"https://github.com/MagdalenaPizarroO/Apple-Geeks"}),x.jsx(Bt,{children:'Final project that culminates with the attainment of the "FULL STACK SOFTWARE DEVELOPMENT" certification from 4Geeks Academy Santiago.'}),x.jsx(Bt,{children:"Online platform dedicated exclusively to the publication and promotion of services related to the range of Apple products."})]})]}),x.jsxs(Ks,{id:"WorkCon2",children:[x.jsx(Ys,{children:x.jsx(Xs,{src:Jg})}),x.jsxs(Zs,{children:[x.jsx(Js,{children:'"Inspirational Quote Generator"'}),x.jsx(Bt,{children:"Github: "}),x.jsx(ul,{href:"https://github.com/MagdalenaPizarroO/inspirational-quote-generator",target:"_blank",rel:"noopener noreferred",children:"https://github.com/MagdalenaPizarroO/inspirational-quote-generator"}),x.jsx(Bt,{children:"Website: "}),x.jsx(ul,{href:"https://prod.dikw667fsd31w.amplifyapp.com/",target:"_blank",rel:"noopener noreferred",children:"https://prod.dikw667fsd31w.amplifyapp.com/"}),x.jsx(Bt,{children:"Personal project to practice React, Next.js, TypeScript and AWS"}),x.jsx(Bt,{children:"With the help of FreeCodeCamp, I was able to create a random quote generator using the ZenQuotes API. The website was deployed using AWS."})]})]})]});function ev(){return x.jsx(x.Fragment,{children:x.jsx(c0,{children:x.jsxs(Tg,{id:"GradientBackgroundCon",children:[x.jsx(_g,{}),x.jsx(Lg,{id:"ContentCon",children:x.jsxs(o0,{children:[x.jsx(ir,{path:"/",element:x.jsx(Mg,{})}),x.jsx(ir,{path:"/contact",element:x.jsx(Kg,{})}),x.jsx(ir,{path:"/about",element:x.jsx(Zg,{})}),x.jsx(ir,{path:"/work",element:x.jsx(bg,{})})]})}),x.jsx(jg,{})]})})})}al.createRoot(document.getElementById("root")).render(x.jsx(qt.StrictMode,{children:x.jsx(ev,{})}));
