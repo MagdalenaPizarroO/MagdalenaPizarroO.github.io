@@ -54,8 +54,8 @@ export const WorkH1 = styled.h1`
 export const WorkP = styled.p`
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
-  text-align: center;
   padding-top: 5px;
+  text-align: left;
 `;
 
 export const WorkLink = styled.a`

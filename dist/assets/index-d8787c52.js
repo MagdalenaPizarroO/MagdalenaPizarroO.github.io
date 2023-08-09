@@ -428,8 +428,8 @@ display: grid;
 `,Bt=I.p`
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
-  text-align: center;
   padding-top: 5px;
+  text-align: left;
 `,ul=I.a`
   font-size: 0.8em;
   font-family: "Courier New", Courier, monospace;
