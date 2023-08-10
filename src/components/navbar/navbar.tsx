@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           <a
             href="https://www.linkedin.com/in/magdalena-pizarro-ortega/"
             target="_blank"
-            rel="noopener noreferred"
+            rel="noreferrer"
           >
             <Logo src={linkedinImg}></Logo>
           </a>

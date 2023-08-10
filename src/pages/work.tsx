@@ -24,7 +24,7 @@ export const Work = () => {
             <WorkLink
               href="https://github.com/MagdalenaPizarroO/Apple-Geeks"
               target="_blank"
-              rel="noopener noreferred"
+              rel="noreferrer"
             >
               https://github.com/MagdalenaPizarroO/Apple-Geeks
             </WorkLink>
@@ -46,7 +46,7 @@ export const Work = () => {
             <WorkLink
               href="https://github.com/MagdalenaPizarroO/inspirational-quote-generator"
               target="_blank"
-              rel="noopener noreferred"
+              rel="noreferrer"
             >
               https://github.com/MagdalenaPizarroO/inspirational-quote-generator
             </WorkLink>
@@ -54,7 +54,7 @@ export const Work = () => {
             <WorkLink
               href="https://prod.dikw667fsd31w.amplifyapp.com/"
               target="_blank"
-              rel="noopener noreferred"
+              rel="noreferrer"
             >
               https://prod.dikw667fsd31w.amplifyapp.com/
             </WorkLink>

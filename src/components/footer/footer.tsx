@@ -9,7 +9,7 @@ export const Footer = () => {
             <FooterLink
               href="https://github.com/MagdalenaPizarroO"
               target="_blank"
-              rel="noopener noreferred"
+              rel="noreferrer"
             >
               @Magdis
             </FooterLink>
