@@ -5,6 +5,7 @@ export const GradientBackgroundCon = styled.div`
   background-size: 400% 400%;
   animation: gradient 6s ease infinite;
   min-height: 100vh;
+  overflow-x: hidden;
   height: fit-content;
   width: 100%;
   min-width: 320px;

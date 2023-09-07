@@ -154,6 +154,7 @@ Error generating stack: `+i.message+`
   background-size: 400% 400%;
   animation: gradient 6s ease infinite;
   min-height: 100vh;
+  overflow-x: hidden;
   height: fit-content;
   width: 100%;
   min-width: 320px;
@@ -179,8 +180,9 @@ Error generating stack: `+i.message+`
   min-width: 320px;
 `,Ig=I.div`
   display: grid;
-	place-items: center;
+  place-items: center;
   min-height: 500px;
+  max-width: 800px;
   height: 50vh;
   width: 50vw;
   padding: 20px;
@@ -188,7 +190,7 @@ Error generating stack: `+i.message+`
   border: 2px solid #ff008821;
   border-radius: 15px;
   z-index: 2;
-    height: fit-content;
+  height: fit-content;
   /* Generated using glassmorphism: https://hype4.academy/tools/glassmorphism-generator */
   background: rgba(0, 0, 70, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -206,19 +208,19 @@ Error generating stack: `+i.message+`
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5em;
   margin: 20px 45px 0;
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     font-size: 1.25em;
   }
 `,$g=I.div`
- color: white;
+  color: white;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.05em;
   margin: 20px 30px 0;
   height: fit-content;
-    line-height: 1.2;
-  @media (max-width:700px) {
-    font-size: 1.00em;
+  line-height: 1.2;
+  @media (max-width: 700px) {
+    font-size: 1em;
   }
 `,Mg=()=>g.jsx(g.Fragment,{children:g.jsxs(Ig,{id:"PresentacionCon",children:[g.jsx(Og,{id:"H1Con",children:"I'm Magdalena Pizarro Ortega, a passionate and dedicated full-stack developer."}),g.jsxs($g,{id:"PCon",children:[g.jsx("p",{children:"I am enthusiastic in further developing my skills in creating dynamic and interactive web applications. My goal is to build user-friendly and visually appealing websites that deliver seamless user experiences."}),g.jsx("br",{}),g.jsx("p",{children:"As a beginner in the field, I am continuously improving my skills and expanding my knowledge to stay at the forefront of web development trends."}),g.jsx("br",{}),g.jsx("p",{children:"Please take a moment to browse through my portfolio and explore the projects I have worked on. If you have any questions or would like to discuss potential collaborations, feel free to reach out to me through the contact form."}),g.jsx("br",{}),g.jsx("p",{children:"Thank you for visiting, and I look forward to connecting with you!"})]})]})}),Dg=I.div`
   display: grid;
@@ -344,16 +346,18 @@ border-radius: 100%;
   text-decoration: underline;
   text-transform: uppercase;
 `;function Gg(){return g.jsx(g.Fragment,{children:g.jsx("form",{action:"https://formspree.io/f/xrgwbdyr",method:"POST",children:g.jsxs(Dg,{id:"FormCon",children:[g.jsx(Fg,{id:"TitleCon",children:g.jsx(Qg,{children:"Contact Me"})}),g.jsx(Ag,{children:"Your Name:"}),g.jsx(Zs,{type:"text",name:"name",required:!0}),g.jsx(Ug,{children:"Your Email:"}),g.jsx(Zs,{type:"email",name:"email",required:!0}),g.jsx(Bg,{children:"Your Message:"}),g.jsx(Wg,{name:"message",required:!0}),g.jsx(Vg,{type:"submit",children:"Send"}),g.jsx(Hg,{type:"reset",children:"Reset"})]})})})}const Kg=()=>g.jsx(g.Fragment,{children:g.jsx(Gg,{})}),Yg=I.div`
-display: grid;
-	place-items: center;
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
   height: 50vh;
   width: 50vw;
+  max-width: 850px;
   padding: 20px;
   margin: 20px;
   border: 2px solid #ff008821;
   border-radius: 15px;
   z-index: 2;
-    height: fit-content;
+  height: fit-content;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);
@@ -364,14 +368,13 @@ display: grid;
     width: 80%;
     margin: 0;
   }
-
 `,Js=I.div`
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5em;
   text-transform: uppercase;
   margin: 20px 45px 0;
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     font-size: 1.25em;
   }
 `,Xg=I.div`
@@ -380,15 +383,16 @@ display: grid;
   font-size: 1.05em;
   margin: 20px 30px 0;
   height: fit-content;
-    line-height: 1.2;
-  @media (max-width:700px) {
-    font-size: 1.00em;
+  line-height: 1.2;
+  @media (max-width: 700px) {
+    font-size: 1em;
   }
 `,Zg=()=>g.jsxs(Yg,{id:"AboutCon",children:[g.jsx(Js,{children:"Welcome"}),g.jsxs(Xg,{children:[g.jsx("p",{children:"My name is Magdalena Pizarro Ortega, and I’m a beginner full-stack developer based in Chile."}),g.jsx("br",{}),g.jsx("p",{children:"As I embark on my web development career, I am actively studying to enhance my skills. My focus is on deepening my knowledge of HTML/CSS, JavaScript, and React. Additionally, I am learning to deploy my websites using AWS for both backend development and deployment."}),g.jsx("br",{}),g.jsx("p",{children:"I am passionate about creating engaging, user-friendly web applications that provide seamless experiences. By leveraging the power of AWS, I aim to build scalable and reliable solutions for my projects."}),g.jsx("br",{}),g.jsx("p",{children:"In addition to my technical abilities, I thrive in collaborative team environments where I can contribute my skills and learn from others. I am always eager to take on new challenges and explore cutting-edge tools and technologies in the web development realm."}),g.jsx("br",{}),g.jsx("p",{children:"I am highly motivated to take on new challenges and seek a company that will allow me to continue growing as a full-stack developer."}),g.jsx("br",{}),g.jsx("p",{children:"Feel free to reach out to me by leaving a message in my contact form!"}),g.jsx("br",{})]}),g.jsx(Js,{children:"Thank you!"})]}),al=I.div`
   align-self: center;
   justify-self: center;
   box-sizing: border-box;
   width: 80%;
+  max-width: 1000px;
   min-width: 320px;
   margin: 0 auto 10px;
   padding: 20px 40px 20px;
@@ -398,11 +402,11 @@ display: grid;
   -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     width: 85%;
     padding: 20px 15px 30px;
   }
-  @media (max-width:450px) {
+  @media (max-width: 450px) {
     width: 90%;
     padding: 20px 5px 30px;
   }
@@ -414,7 +418,7 @@ display: grid;
   display: grid;
   place-items: center;
 `,cl=I.img`
-  @media (max-width:1000px) {
+  @media (max-width: 1000px) {
     width: 90%;
   }
 `,fl=I.div`

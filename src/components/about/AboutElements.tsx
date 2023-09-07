@@ -1,16 +1,18 @@
 import styled from "styled-components";
 
 export const AboutCon = styled.div`
-display: grid;
-	place-items: center;
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
   height: 50vh;
   width: 50vw;
+  max-width: 850px;
   padding: 20px;
   margin: 20px;
   border: 2px solid #ff008821;
   border-radius: 15px;
   z-index: 2;
-    height: fit-content;
+  height: fit-content;
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(11px);
@@ -21,7 +23,6 @@ display: grid;
     width: 80%;
     margin: 0;
   }
-
 `;
 
 export const H1Con = styled.div`
@@ -30,7 +31,7 @@ export const H1Con = styled.div`
   font-size: 1.5em;
   text-transform: uppercase;
   margin: 20px 45px 0;
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     font-size: 1.25em;
   }
 `;
@@ -41,8 +42,8 @@ export const PCon = styled.div`
   font-size: 1.05em;
   margin: 20px 30px 0;
   height: fit-content;
-    line-height: 1.2;
-  @media (max-width:700px) {
-    font-size: 1.00em;
+  line-height: 1.2;
+  @media (max-width: 700px) {
+    font-size: 1em;
   }
 `;

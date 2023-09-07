@@ -5,6 +5,7 @@ export const WorkCon = styled.div`
   justify-self: center;
   box-sizing: border-box;
   width: 80%;
+  max-width: 1000px;
   min-width: 320px;
   margin: 0 auto 10px;
   padding: 20px 40px 20px;
@@ -14,11 +15,11 @@ export const WorkCon = styled.div`
   -webkit-backdrop-filter: blur(11px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  @media (max-width:700px) {
+  @media (max-width: 700px) {
     width: 85%;
     padding: 20px 15px 30px;
   }
-  @media (max-width:450px) {
+  @media (max-width: 450px) {
     width: 90%;
     padding: 20px 5px 30px;
   }
@@ -34,7 +35,7 @@ export const WorkImageCon = styled.div`
 `;
 
 export const Img = styled.img`
-  @media (max-width:1000px) {
+  @media (max-width: 1000px) {
     width: 90%;
   }
 `;
