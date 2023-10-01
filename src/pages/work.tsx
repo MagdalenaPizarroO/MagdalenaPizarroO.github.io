@@ -6,18 +6,18 @@ import LeetCodeCloneGif from "../assets/LeetCodeClone.gif";
 export const Work = () => {
   return (
     <>
-      <WorkCon id="LeetCodeCloneCon">
+      <WorkCon id='LeetCodeCloneCon'>
         <WorkImageCon>
           <Img src={LeetCodeCloneGif} />
         </WorkImageCon>
         <WorkTextCon>
           <WorkH1>"LeetCode Clone"</WorkH1>
           <WorkP>Github: </WorkP>
-          <WorkLink href="https://github.com/MagdalenaPizarroO/LeetCode-clone" target="_blank" rel="noreferrer">
+          <WorkLink href='https://github.com/MagdalenaPizarroO/LeetCode-clone' target='_blank' rel='noreferrer'>
             https://github.com/MagdalenaPizarroO/LeetCode-clone
           </WorkLink>
           <WorkP>Website: </WorkP>
-          <WorkLink href="https://leet-code-clone-omega.vercel.app/" target="_blank" rel="noreferrer">
+          <WorkLink href='https://leet-code-clone-omega.vercel.app/' target='_blank' rel='noreferrer'>
             https://leet-code-clone-omega.vercel.app/
           </WorkLink>
           <WorkP>Personal project to practice React, Next.js, TypeScript, FireStore and Vercel.</WorkP>
@@ -30,7 +30,7 @@ export const Work = () => {
         </WorkTextCon>
       </WorkCon>
 
-      <WorkCon id="InspoQuoteGenCon">
+      <WorkCon id='InspoQuoteGenCon'>
         <WorkImageCon>
           <Img src={InspoQuoteGenGif} />
         </WorkImageCon>
@@ -38,15 +38,15 @@ export const Work = () => {
           <WorkH1>"Inspirational Quote Generator"</WorkH1>
           <WorkP>Github: </WorkP>
           <WorkLink
-            href="https://github.com/MagdalenaPizarroO/inspirational-quote-generator"
-            target="_blank"
-            rel="noreferrer"
+            href='https://github.com/MagdalenaPizarroO/inspirational-quote-generator'
+            target='_blank'
+            rel='noreferrer'
           >
             https://github.com/MagdalenaPizarroO/inspirational-quote-generator
           </WorkLink>
           <WorkP>Website: </WorkP>
-          <WorkLink href="https://prod.dikw667fsd31w.amplifyapp.com/" target="_blank" rel="noreferrer">
-            https://prod.dikw667fsd31w.amplifyapp.com/
+          <WorkLink href='https://prod.dikw667fsd31w.amplifyapp.com/' target='_blank' rel='noreferrer'>
+            TEMPORARILY UNAVAILABLE
           </WorkLink>
           <WorkP>Personal project to practice React, Next.js, TypeScript and AWS</WorkP>
           <WorkP>
@@ -56,14 +56,14 @@ export const Work = () => {
         </WorkTextCon>
       </WorkCon>
 
-      <WorkCon id="AppleGeeksCon">
+      <WorkCon id='AppleGeeksCon'>
         <WorkImageCon>
           <Img src={AppleGeeksGif} />
         </WorkImageCon>
         <WorkTextCon>
           <WorkH1>"Apple Geeks"</WorkH1>
           <WorkP>Github: </WorkP>
-          <WorkLink href="https://github.com/MagdalenaPizarroO/Apple-Geeks" target="_blank" rel="noreferrer">
+          <WorkLink href='https://github.com/MagdalenaPizarroO/Apple-Geeks' target='_blank' rel='noreferrer'>
             https://github.com/MagdalenaPizarroO/Apple-Geeks
           </WorkLink>
           <WorkP>
